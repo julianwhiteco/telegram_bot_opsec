@@ -5,4 +5,4 @@ Note that a majority of python 3 libraries in requirements.txt are required by t
 
 ### Building and Running.
 - Build with: `docker build -t opsec-bot .`
-- Run with: `docker run opsec-bot -a yourapikeyhere`
+- Run detached with: `docker run -d opsec-bot -a yourapikeyhere`
